@@ -1,5 +1,5 @@
 ---
-title: "API dos correios"
+title: "Cotação do Dólar por Período"
 author: "Gih"
 date: "2025-11-21"
 categories: [news, code, python, correios]
@@ -7,7 +7,7 @@ image: "correios.png"
 jupyter: python3
 ---
 
-Neste post irei mostrar como desenvolver uma função em *python* que irá se conectar com a **API dos correios**. Esta função utilizará um parâmetro chamado cep e retornará as informações relacionadas ao cep.
+A tarefa consiste em criar uma rotina que receba como parâmetro uma string que tenha primeiro o mês e depois o ano neste formato "MMYYYY"
 
 ```{python}
 import requests
